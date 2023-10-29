@@ -1,5 +1,7 @@
 # Skypay Technical Test: Bank Kata
 
+This is a technical test demo project for the company Skypay, implementing a banking account transaction system (deposit, withdrawal) and a bank statement print, using spring boot 3, spring data jpa and spring security with jwt.
+
 ### Steps to follow:
 
 1. Install PostgreSQL and create a database named "bank_kata".
@@ -8,11 +10,12 @@
 4. Launch the application, an Admin and a Manager account will be inserted in the database.
 5. Use postman or a similar tool to register a new account, authenticate, then deposit, withdraw and print.
 
-### Step 5 detailed screenshots:
+##### Step 5 detailed screenshots:
 1. Register:
 
 ![Register](screenshots/register.PNG)
 You can use the access token (not the refresh token) provided as a response or get an access token from the authentication process.
+
 2. Authenticate:
 
 ![Authenticate](screenshots/authenticate.PNG)
